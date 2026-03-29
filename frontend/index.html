@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>AI Generator</h1>
+
+<h2>Text → Image</h2>
+<input id="textInput" placeholder="Enter prompt" />
+
+<button onclick="enhance()">Enhance</button>
+
+<p id="enhancedText"></p>
+
+<button onclick="generate()">Generate Image</button>
+
+<img id="imageOutput" />
+
+<hr>
+
+<h2>Image Upload</h2>
+<input type="file" id="imageInput" />
+
+<button onclick="analyze()">Analyze Image</button>
+
+<p id="analysis"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
